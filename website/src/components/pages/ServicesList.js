@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from './Button';
 import './ServicesList.css';
-import { FaFire, FaHeadSideMask } from 'react-icons/fa';
-import { BsXDiamondFill } from 'react-icons/bs';
-import { GiCrystalize } from 'react-icons/gi';
+import { FaFire, FaHeadSideMask, FaParking, FaHeadSideCough, FaBed, FaSmokingBan} from 'react-icons/fa';
+import {MdSocialDistance, MdCountertops, MdOutlineFaceUnlock} from 'react-icons/md'
+import { GiFalling, GiSleepy, GiHighPunch, GiPistolGun } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import { Link } from 'react-router-dom';
 
@@ -28,7 +27,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <MdSocialDistance />
                 </div>
                 <h4>Social Distancing Monitoring</h4>
                 <p>A fully trained model that generates an alert when people get closer to each other (i.e, violating social distancing SOPs).</p>
@@ -38,7 +37,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <MdCountertops />
                 </div>
                 <h4>Empty Counter Detection</h4>
                 <p>A fully trained model that generates an alert whenever a counter/reception is empty.</p>
@@ -48,7 +47,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <FaParking />
                 </div>
                 <h4>Empty Parking Detection</h4>
                 <p>A fully trained model that detects the number of vanact parking spaces.</p>
@@ -58,7 +57,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <GiFalling />
                 </div>
                 <h4>Fainting Detection</h4>
                 <p>A fully trained model that generates an alert whenever a person falls/faints.</p>
@@ -68,7 +67,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <FaHeadSideCough />
                 </div>
                 <h4>Choking Detection</h4>
                 <p>A fully trained model that generates an alert whenever a person starts choking.</p>
@@ -78,7 +77,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <GiSleepy />
                 </div>
                 <h4>Drowsiness Detection</h4>
                 <p>A fully trained model that generates an alert whenever a person in reception yawns/sleeps.</p>
@@ -88,7 +87,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <GiHighPunch />
                 </div>
                 <h4>Aggressive Behaviour Detection</h4>
                 <p>A fully trained model that generates an alert whenever a fight is detected.</p>
@@ -98,7 +97,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <MdOutlineFaceUnlock />
                 </div>
                 <h4>Facial Attendance System</h4>
                 <p>A fully trained model that marks attendance on basis of facial recognition.</p>
@@ -108,7 +107,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <FaSmokingBan />
                 </div>
                 <h4>Smoking Detection</h4>
                 <p>A fully trained model that generates an alert whenever a person smoking is recognized.</p>
@@ -118,7 +117,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <GiPistolGun />
                 </div>
                 <h4>Weapon Detection</h4>
                 <p>A fully trained model that generates an alert whenever a weapon is detected.</p>
@@ -128,7 +127,7 @@ function ServicesList() {
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
-                  <FaHeadSideMask />
+                  <FaBed />
                 </div>
                 <h4>Isolation Ward Monitoring</h4>
                 <p>A fully trained model that performs surveillance on the isolation ward.</p>
