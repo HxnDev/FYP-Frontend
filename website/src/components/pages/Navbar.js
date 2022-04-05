@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import {FaBars, FaTimes} from  'react-icons/fa'
+import { Button } from './Button';
 
 
 function Navbar() {
@@ -26,11 +27,11 @@ function Navbar() {
 
               <li className='nav-btn'>
                 {
-                  <button buttonStyle='btn--outline' buttonSize='btn--mobile'>
+                  <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
                     <Link to='/login' className='btn-link'>
                      Log In
                     </Link>
-                  </button>
+                  </Button>
                 }
               </li>
             </ul>
