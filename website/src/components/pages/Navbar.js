@@ -38,13 +38,32 @@ function Navbar() {
                 </Link>
               </li>
 
+              <li className='nav-item'>
+                <Link to='/services' className='nav-links'>
+                  Services
+                </Link>
+              </li>
+
+              <li className='nav-item'>
+                <Link to='/products' className='nav-links'>
+                  Products
+                </Link>
+              </li>
+
               <li className='nav-btn'>
-                {
-                  <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
-                    <Link to='/login' className='btn-link'>
-                     Log In
-                    </Link>
-                  </Button>
+                { button ? (
+                  <Link to='/sign-up' className='btn-link'>
+                    <Button buttonStyle='btn--outline'>
+                      LOGIN
+                    </Button>      
+                  </Link>
+                ) : (
+                  <Link to='/sign-up' className='btn-link'>
+                    <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
+                      LOGIN
+                    </Button>
+                  </Link>
+                )
                 }
               </li>
             </ul>
