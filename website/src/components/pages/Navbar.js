@@ -56,13 +56,13 @@ function Navbar() {
 
                   <li className='nav-btn'>
                     { button ? (
-                      <Link to='/sign-up' className='btn-link'>
+                      <Link to='/log-in' className='btn-link'>
                         <Button buttonStyle='btn--outline'>
                           LOGIN
                         </Button>      
                       </Link>
                     ) : (
-                      <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
+                      <Link to='/log-in' className='btn-link' onClick={closeMobileMenu}>
                         <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
                           LOGIN
                         </Button>
@@ -78,4 +78,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Navbar;
