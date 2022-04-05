@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar'>
             <div className='navbar-container container'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    LAVISH
+                    HAWK'S EYE
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                   {click ? <FaTimes/> : <FaBars/>}
