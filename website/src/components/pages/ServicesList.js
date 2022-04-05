@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from './Button';
 import './ServicesList.css';
-import { FaFire } from 'react-icons/fa';
+import { FaFire, FaHeadSideMask } from 'react-icons/fa';
 import { BsXDiamondFill } from 'react-icons/bs';
 import { GiCrystalize } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
@@ -13,62 +13,128 @@ function ServicesList() {
     <IconContext.Provider value={{ color: '#fff', size: 64 }}>
       <div className='services__section'>
         <div className='services__wrapper'>
-          <h1 className='services__heading'>Pricing</h1>
+          <h1 className='services__heading'>Our Services</h1>
           <div className='services__container'>
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
                 <div className='icon'>
-                  <FaFire />
+                  <FaHeadSideMask />
                 </div>
-                <h3>Starter</h3>
-                <h4>$8.99</h4>
-                <p>per month</p>
-                <ul className='services__container-features'>
-                  <li>100 Transactions</li>
-                  <li>2% Cash Back</li>
-                  <li>$10,000 Limit</li>
-                </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Choose Plan
-                </Button>
+                <h4>Face Mask Detection</h4>
+                <p>A fully trained model that can detect whether a person is wearing Face Mask or not.</p>
               </div>
             </Link>
+            
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
-                <div className='icon'>
-                  <BsXDiamondFill />
+              <div className='icon'>
+                  <FaHeadSideMask />
                 </div>
-                <h3>Gold</h3>
-                <h4>$29.99</h4>
-                <p>per month</p>
-                <ul className='services__container-features'>
-                  <li>1000 Transactions</li>
-                  <li>3.5% Cash Back</li>
-                  <li>$100,000 Limit</li>
-                </ul>
-                <Button buttonSize='btn--wide' buttonColor='blue'>
-                  Choose Plan
-                </Button>
+                <h4>Social Distancing Monitoring</h4>
+                <p>A fully trained model that generates an alert when people get closer to each other (i.e, violating social distancing SOPs).</p>
               </div>
             </Link>
+            
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>
-                <div className='icon'>
-                  <GiCrystalize />
+              <div className='icon'>
+                  <FaHeadSideMask />
                 </div>
-                <h3>Diamond</h3>
-                <h4>$99.99</h4>
-                <p>per month</p>
-                <ul className='services__container-features'>
-                  <li>Unlimited Transactions</li>
-                  <li>5% Cash Back</li>
-                  <li>Unlimited Spending</li>
-                </ul>
-                <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Choose Plan
-                </Button>
+                <h4>Empty Counter Detection</h4>
+                <p>A fully trained model that generates an alert whenever a counter/reception is empty.</p>
               </div>
             </Link>
+
+            <Link to='/log-in' className='services__container-card'>
+              <div className='services__container-cardInfo'>
+              <div className='icon'>
+                  <FaHeadSideMask />
+                </div>
+                <h4>Empty Parking Detection</h4>
+                <p>A fully trained model that detects the number of vanact parking spaces.</p>
+              </div>
+            </Link>
+
+            <Link to='/log-in' className='services__container-card'>
+              <div className='services__container-cardInfo'>
+              <div className='icon'>
+                  <FaHeadSideMask />
+                </div>
+                <h4>Fainting Detection</h4>
+                <p>A fully trained model that generates an alert whenever a person falls/faints.</p>
+              </div>
+            </Link>
+
+            <Link to='/log-in' className='services__container-card'>
+              <div className='services__container-cardInfo'>
+              <div className='icon'>
+                  <FaHeadSideMask />
+                </div>
+                <h4>Choking Detection</h4>
+                <p>A fully trained model that generates an alert whenever a person starts choking.</p>
+              </div>
+            </Link>
+
+            <Link to='/log-in' className='services__container-card'>
+              <div className='services__container-cardInfo'>
+              <div className='icon'>
+                  <FaHeadSideMask />
+                </div>
+                <h4>Drowsiness Detection</h4>
+                <p>A fully trained model that generates an alert whenever a person in reception yawns/sleeps.</p>
+              </div>
+            </Link>
+
+            <Link to='/log-in' className='services__container-card'>
+              <div className='services__container-cardInfo'>
+              <div className='icon'>
+                  <FaHeadSideMask />
+                </div>
+                <h4>Aggressive Behaviour Detection</h4>
+                <p>A fully trained model that generates an alert whenever a fight is detected.</p>
+              </div>
+            </Link>
+
+            <Link to='/log-in' className='services__container-card'>
+              <div className='services__container-cardInfo'>
+              <div className='icon'>
+                  <FaHeadSideMask />
+                </div>
+                <h4>Facial Attendance System</h4>
+                <p>A fully trained model that marks attendance on basis of facial recognition.</p>
+              </div>
+            </Link>
+
+            <Link to='/log-in' className='services__container-card'>
+              <div className='services__container-cardInfo'>
+              <div className='icon'>
+                  <FaHeadSideMask />
+                </div>
+                <h4>Smoking Detection</h4>
+                <p>A fully trained model that generates an alert whenever a person smoking is recognized.</p>
+              </div>
+            </Link>
+
+            <Link to='/log-in' className='services__container-card'>
+              <div className='services__container-cardInfo'>
+              <div className='icon'>
+                  <FaHeadSideMask />
+                </div>
+                <h4>Weapon Detection</h4>
+                <p>A fully trained model that generates an alert whenever a weapon is detected.</p>
+              </div>
+            </Link>
+
+            <Link to='/log-in' className='services__container-card'>
+              <div className='services__container-cardInfo'>
+              <div className='icon'>
+                  <FaHeadSideMask />
+                </div>
+                <h4>Isolation Ward Monitoring</h4>
+                <p>A fully trained model that performs surveillance on the isolation ward.</p>
+              </div>
+            </Link>
+
           </div>
         </div>
       </div>
