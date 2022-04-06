@@ -1,6 +1,6 @@
 import React from 'react'
 import './ServicesList.css';
-import { FaFire, FaHeadSideMask, FaParking, FaHeadSideCough, FaBed, FaSmokingBan} from 'react-icons/fa';
+import { FaHeadSideMask, FaParking, FaHeadSideCough, FaBed, FaSmokingBan} from 'react-icons/fa';
 import {MdSocialDistance, MdCountertops, MdOutlineFaceUnlock} from 'react-icons/md'
 import { GiFalling, GiSleepy, GiHighPunch, GiPistolGun } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
