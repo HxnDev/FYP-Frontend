@@ -2,25 +2,26 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zero fees',
+    topLine: 'Who are we?',
+    headline: 'Creating Smart Solutions',
     description:
-      'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
-    buttonLabel: 'Get Started',
+      'At Think Vision, we take the power of Artificial Intelligence and Machine Learning and apply it to computer vision. Our advanced models can use whatever the camera sees and make judgements about objects, people, activities and more. Interested? Lets talk more about it.',
     imgStart: '',
+    buttonLabel: "Hi",
     img: './images/svg-1.svg',
     alt: 'Credit Card'
   };
+
 export const homeObjTwo = {
   lightBg: true,
   lightText: false,
-  lightTextDesc: true,
-  topLine: '100% SECURE',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  lightTextDesc: false,
+  topLine: 'Automated Surveillance',
+  headline: 'Watching out for your ease and safety',
   description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
-  buttonLabel: 'Learn More',
-  imgStart: '',
+    'Manual surveillance is prone to human error and gaps in oversight. We can address these issues - our models will tirelessly watch and catch out anything suspicious. From aggressive behaviour to unauthorised people in restricted areas, our AI can address any vulnerabiiity, threat or risk.',
+  imgStart: 'start',
+  buttonLabel: "Hi",
   img: 'images/svg-5.svg',
   alt: 'Vault'
 };
@@ -28,27 +29,13 @@ export const homeObjTwo = {
 export const homeObjThree = {
   lightBg: false,
   lightText: true,
-  lightTextDesc: false,
-  topLine: 'EASY SETUP',
-  headline: 'Super fast and simple onboarding process',
-  description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
-  imgStart: 'start',
-  img: 'images/svg-7.svg',
-  alt: 'Vault'
-};
-
-export const homeObjFour = {
-  lightBg: true,
-  lightText: false,
   lightTextDesc: true,
-  topLine: 'DATA ANALYTICS',
-  headline: 'Every transaction is stored on our secure cloud database',
+  topLine: 'Efficient Supervision',
+  headline: 'Keeping an eye out for anything alarming',
   description:
-    'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-  buttonLabel: 'Sign Up Now',
-  imgStart: 'start',
-  img: 'images/svg-8.svg',
+    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+  imgStart: '',
+  buttonLabel: "Hi",
+  img: 'images/svg-5.svg',
   alt: 'Vault'
 };

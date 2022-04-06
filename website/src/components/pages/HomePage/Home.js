@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroSection from './HeroSection';
-import { homeObjOne, homeObjThree, homeObjTwo, homeObjFour } from './Data';
+import { homeObjOne, homeObjThree, homeObjTwo} from './Data';
 
 function Home() {
   return (
@@ -8,7 +8,6 @@ function Home() {
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjTwo} />
       <HeroSection {...homeObjThree} />
-      <HeroSection {...homeObjFour} />
       
     </>
   );

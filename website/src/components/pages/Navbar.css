@@ -1,5 +1,5 @@
 .navbar {
-    background: #1c2237;
+    background: #000b33;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,6 +8,11 @@
     position: sticky;
     top: 0;
     z-index: 999;
+  }
+
+  span {
+    color: rgb(97, 100, 255);
+    font-size: 35px;
   }
   
   .navbar-container {
@@ -31,7 +36,7 @@
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 45px;
     display: flex;
     align-items: center;
   }
