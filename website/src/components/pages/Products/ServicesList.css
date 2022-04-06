@@ -67,6 +67,7 @@
     transform: scale(1.06);
     transition: all 0.3s ease-out;
     color: #1c2237;
+    box-shadow: 0px 0px 12px 1px #3474dbb2;
   }
   
   .services__container {

@@ -1,4 +1,4 @@
-import { Link, Routes, Route, BrowserRouter as Router} from 'react-router-dom';
+import {Routes, Route, BrowserRouter as Router} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/HomePage/Home';
 import Navbar from './components/pages/Navbar';
@@ -15,7 +15,6 @@ function App() {
         <Route path="/Products" element={<Products />} />
         <Route path="/Login" element={<Login />} />
       </Routes>
-      
       <Footer />
     </Router>
   );
