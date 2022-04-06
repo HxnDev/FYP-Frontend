@@ -3,7 +3,7 @@ import './App.css';
 import Home from './components/pages/HomePage/Home';
 import Navbar from './components/pages/Navbar';
 import Footer from './components/pages/Footer/Footer';
-import Services from './components/pages/Services/Services';
+import Products from './components/pages/Products/Products';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home/>} />
-        <Route path="/Services" element={<Services />} />
+        <Route path="/Products" element={<Products />} />
       </Routes>
       
       <Footer />
