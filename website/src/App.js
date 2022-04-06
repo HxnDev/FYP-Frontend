@@ -9,12 +9,10 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Home />
-      <Services />
-      {/* <Routes>
-        <Route exact path='/' children={<Home />} />
-        <Route path='/services' children={<Services />} />
-      </Routes> */}
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route path="/Services" element={<Services />} />
+      </Routes>
       
       <Footer />
     </Router>

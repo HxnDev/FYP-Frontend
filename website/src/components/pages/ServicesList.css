@@ -90,7 +90,9 @@
     margin-bottom: 50px;
     margin-top: 10px;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
+    width: 100%;
+
   }
   
   .services__container-cardInfo {

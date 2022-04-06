@@ -7,7 +7,6 @@ function Home() {
   return (
     <>
       <HeroSection {...homeObjOne} />
-      <ServicesList />
       <HeroSection {...homeObjTwo} />
       <HeroSection {...homeObjThree} />
       <HeroSection {...homeObjFour} />
