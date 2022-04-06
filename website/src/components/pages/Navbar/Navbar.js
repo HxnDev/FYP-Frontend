@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react'
 import {Link} from 'react-router-dom'
 import {FaBars, FaTimes} from  'react-icons/fa'
-import { Button } from './Button';
+import { Button } from '../Button';
 import './Navbar.css'
 import { IconContext } from 'react-icons/lib';
-import Login from './Login/Login'
+import Login from '../Login/Login'
 
 function Navbar() {
   const [click, setClick] = useState(false);
