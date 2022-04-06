@@ -69,20 +69,25 @@
     color: #1c2237;
   }
   
-
-  
   .services__container {
+    background-color: none;
     display:flex;
     justify-content: center;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 0.725%;
+    height: 450px;
   }
   
   .services__wrapper {
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin: 0 auto;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    height : auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
   }
   
   .services__heading {
@@ -99,6 +104,7 @@
     display: flex;
     flex-direction: column;
     height: 500px;
+    width: 300px;
     padding: 24px;
     align-items: center;
     color: #fff;

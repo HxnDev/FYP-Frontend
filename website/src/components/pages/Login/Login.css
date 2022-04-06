@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Licorice");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.login-base {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-image {
+    width: 30em;
+    margin-bottom: 10px;
+}
+
+.login-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-form {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+.login-form-group label {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.login-form-group input {
+    margin-top: 6px;
+    min-width: 20em;
+    height: 50px;
+    padding: 0px 20px;
+    font-size: 15px;
+    font-family: Quicksand;
+    background-color: #cdcfe788;
+    border: 0;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: all 250ms ease-in-out;
+}
+
+.login-form-group input:hover {
+    outline: none;
+    box-shadow: 0px 0px 12px 1px #3474dbb2;
+}
+            
+.login-footer {
+    margin-top: 0.1px;
+}
+  
+.login-header {
+    font-family: 'Licorice';
+    height: 2vh;
+    width: 2vh;
+    background-position: center;
+    background-size:cover;
+    min-height: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(150px + 2vmin);
+    color: #000b33;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+.login-btn {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Quicksand';
+    padding: 10px 30px;
+    border: 0;
+    background-color: #000b33;
+    color: #fff;
+    border-radius: 25px;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 200px;
+}
+
+.login-btn:hover {
+    
+    background-color: #242424;
+    color: rgb(233, 221, 221);
+    transform: scale(1.1);
+}

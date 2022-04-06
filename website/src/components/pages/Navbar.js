@@ -4,6 +4,7 @@ import {FaBars, FaTimes} from  'react-icons/fa'
 import { Button } from './Button';
 import './Navbar.css'
 import { IconContext } from 'react-icons/lib';
+import Login from './Login/Login'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -50,13 +51,13 @@ function Navbar() {
 
                   <li className='nav-btn'>
                     { button ? (
-                      <Link to='/log-in' className='btn-link'>
+                      <Link to='/Login' className='btn-link'>
                         <Button buttonStyle='btn--outline'>
                           LOGIN
                         </Button>      
                       </Link>
                     ) : (
-                      <Link to='/log-in' className='btn-link' onClick={closeMobileMenu}>
+                      <Link to='/Login' className='btn-link' onClick={<Login />}>
                         <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
                           LOGIN
                         </Button>

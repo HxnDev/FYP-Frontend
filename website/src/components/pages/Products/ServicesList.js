@@ -11,8 +11,8 @@ function ServicesList() {
     
     <IconContext.Provider value={{ color: '#fff', size: 64 }}>
       <div className='services__section'>
+      <h1 className='services__heading'>Our Services</h1>
         <div className='services__wrapper'>
-          <h1 className='services__heading'>Our Services</h1>
           <div className='services__container'>
             <Link to='/log-in' className='services__container-card'>
               <div className='services__container-cardInfo'>

@@ -63,9 +63,6 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              THINK VISION PVT LTD
-            </Link>
           </div>
           <small className='website-rights'>THINK VISION © 2022</small>
           <div className='social-icons'>
