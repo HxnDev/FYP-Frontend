@@ -96,14 +96,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: 25px;
     margin-top: 25px;
     justify-content: center;
     margin-bottom: 25px;
   }
 
   .vjs-poster {
-      border-radius: 10px;
+      border-radius: 25px;
   }
 
   .video-js .vjs-big-play-button{

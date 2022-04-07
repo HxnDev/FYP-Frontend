@@ -7,7 +7,7 @@ export const facemask = {
     lightTextDesc: true,
     headline: 'Face Mask Detection',
     description:
-      'At Think Vision, we take the power of Artificial Intelligence and Machine Learning and apply it to computer vision. Our advanced models can use whatever the camera sees and make judgements about objects, people, activities and more. Interested? Lets talk more about it.',
+      'This feature is a much needed one as we have seen doctors getting diagnosed with many deadly viruses while treating patients and many of them passing away. For this feature, our product detects if a person is wearing a face mask and will generate alert incase he/she is not. This feature also ensures not only COVID SOPs but also various SOPs for hospitals.',
     imgStart: '',
     img: './images/svg-1.svg',
     alt: 'Credit Card',
