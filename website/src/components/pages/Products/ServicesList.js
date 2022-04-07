@@ -4,9 +4,10 @@ import { FaHeadSideMask, FaParking, FaHeadSideCough, FaBed, FaSmokingBan} from '
 import {MdSocialDistance, MdCountertops, MdOutlineFaceUnlock} from 'react-icons/md'
 import { GiFalling, GiSleepy, GiHighPunch, GiPistolGun } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function ServicesList() {
+  const navigate = useNavigate();
   return (
     
     <IconContext.Provider value={{ color: '#fff', size: 64 }}>
@@ -14,7 +15,7 @@ function ServicesList() {
       <h1 className='services__heading'>Our Services</h1>
         <div className='services__wrapper'>
           <div className='services__container'>
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/Aggressive' className='services__container-card' >
               <div className='services__container-cardInfo'>
                 <div className='icon'>
                   <FaHeadSideMask />
@@ -24,7 +25,7 @@ function ServicesList() {
               </div>
             </Link>
             
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/SocialDistancing' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <MdSocialDistance />
@@ -34,7 +35,7 @@ function ServicesList() {
               </div>
             </Link>
             
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/EmptyCounter' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <MdCountertops />
@@ -44,7 +45,7 @@ function ServicesList() {
               </div>
             </Link>
 
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/Login' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <FaParking />
@@ -54,7 +55,7 @@ function ServicesList() {
               </div>
             </Link>
 
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/Fainting' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <GiFalling />
@@ -64,7 +65,7 @@ function ServicesList() {
               </div>
             </Link>
 
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/Choking' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <FaHeadSideCough />
@@ -74,7 +75,7 @@ function ServicesList() {
               </div>
             </Link>
 
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/Login' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <GiSleepy />
@@ -84,7 +85,7 @@ function ServicesList() {
               </div>
             </Link>
 
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/Aggressive' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <GiHighPunch />
@@ -94,7 +95,7 @@ function ServicesList() {
               </div>
             </Link>
 
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/Attendance' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <MdOutlineFaceUnlock />
@@ -104,7 +105,7 @@ function ServicesList() {
               </div>
             </Link>
 
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/Smoking' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <FaSmokingBan />
@@ -114,7 +115,7 @@ function ServicesList() {
               </div>
             </Link>
 
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/Weapon' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <GiPistolGun />
@@ -124,7 +125,7 @@ function ServicesList() {
               </div>
             </Link>
 
-            <Link to='/log-in' className='services__container-card'>
+            <Link to='/Login' className='services__container-card'>
               <div className='services__container-cardInfo'>
               <div className='icon'>
                   <FaBed />

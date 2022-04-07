@@ -16,6 +16,9 @@
     align-content: stretch;
   }
   
+  .top-line{
+    color: #ff0000;
+  }
   .col {
     margin-bottom: 15px;
     padding-right: 15px;
@@ -40,7 +43,7 @@
   }
   
   .dark {
-    color: #0037ff;
+    color: #000000;
   }
   
   .darkBg {
