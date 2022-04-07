@@ -7,13 +7,13 @@ import Products from './components/pages/Products/Products';
 import Login from './components/pages/Login/Login';
 import Features from './components/pages/Features/Features';
 //import FaceMask from './components/pages/Features/FaceMask';
-import Fainting from './components/pages/Features/Fainting';
+import Weapon from './components/pages/Features/Weapon';
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <Fainting />
+      <Weapon />
       {/* <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/Products" element={<Products />} />
