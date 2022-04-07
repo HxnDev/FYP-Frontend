@@ -6,13 +6,14 @@ import Footer from './components/pages/Footer/Footer';
 import Products from './components/pages/Products/Products';
 import Login from './components/pages/Login/Login';
 import Features from './components/pages/Features/Features';
-import FaceMask from './components/pages/Features/FaceMask';
+//import FaceMask from './components/pages/Features/FaceMask';
+import ChokingDetection from './components/pages/Features/Choking Detection';
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <FaceMask />
+      <ChokingDetection />
       {/* <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/Products" element={<Products />} />
