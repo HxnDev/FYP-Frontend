@@ -1,6 +1,6 @@
 import React from 'react';
 import Features from './Features';
-import { choking } from './Choking DetectionData';
+import { choking } from './ChokingDetectionData';
 
 function ChokingDetection() {
   return (
