@@ -1,8 +1,8 @@
 import React from 'react';
 import Features from './Features';
-import { aggressive } from './AggressiveBehaviourData';
+import { aggressive } from './AggressiveData';
 
-function AggressiveBehaviour() {
+function Aggressive() {
   return (
     <>
       <Features {...aggressive} />
@@ -11,4 +11,4 @@ function AggressiveBehaviour() {
   );
 }
 
-export default AggressiveBehaviour;
+export default Aggressive;

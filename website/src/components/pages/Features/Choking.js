@@ -1,8 +1,8 @@
 import React from 'react';
 import Features from './Features';
-import { choking } from './ChokingDetectionData';
+import { choking } from './Choking';
 
-function ChokingDetection() {
+function Choking() {
   return (
     <>
       <Features {...choking} />
@@ -11,4 +11,4 @@ function ChokingDetection() {
   );
 }
 
-export default ChokingDetection;
+export default Choking;

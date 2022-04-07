@@ -1,8 +1,8 @@
 import React from 'react';
 import Features from './Features';
-import { drowsiness } from './DrowsinessDetectionData';
+import { drowsiness } from './DrowsinessData';
 
-function DrowsinessDetection() {
+function Drowsiness() {
   return (
     <>
       <Features {...drowsiness} />
@@ -11,4 +11,4 @@ function DrowsinessDetection() {
   );
 }
 
-export default DrowsinessDetection;
+export default Drowsiness;
