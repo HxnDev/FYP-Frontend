@@ -1,4 +1,4 @@
-import {Routes, Route, BrowserRouter as Router} from 'react-router-dom';
+import {Routes, Route, BrowserRouter as Router, useLocation} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/HomePage/Home';
 import Navbar from './components/pages/Navbar/Navbar';
@@ -14,26 +14,39 @@ import Fainting from './components/pages/Features/Fainting';
 import Smoking from './components/pages/Features/Smoking';
 import SocialDistancing from './components/pages/Features/SocialDistancing';
 import Weapon from './components/pages/Features/Weapon';
+import {useLayoutEffect} from 'react'
+
+const Wrapper = ({children}) => {
+  const location = useLocation();
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+  return children
+} 
+
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route exact path="/" element={<Home/>} />
-        <Route path="/Products" element={<Products/>} />
-        <Route path="/Login" element={<Login/>} />
-        <Route path="/Aggressive" element={<Aggressive/>} />
-        <Route path="/Attendance" element={<Attendance/>} />
-        <Route path="/Choking" element={<Choking/>} />
-        <Route path="/EmptyCounter" element={<EmptyCounter/>} />
-        <Route path="/FaceMask" element={<FaceMask/>} />
-        <Route path="/Fainting" element={<Fainting/>} />
-        <Route path="/Smoking" element={<Smoking/>} />
-        <Route path="/SocialDistancing" element={<SocialDistancing/>} />
-        <Route path="/Weapon" element={<Weapon/>} />
-      </Routes>
-      <Footer />
+      <Wrapper>
+        <Navbar />
+          <Routes>
+            <Route exact path="/" element={<Home/>} />
+            <Route path="/Products" element={<Products/>} />
+            <Route path="/Login" element={<Login/>} />
+            <Route path="/Aggressive" element={<Aggressive/>} />
+            <Route path="/Attendance" element={<Attendance/>} />
+            <Route path="/Choking" element={<Choking/>} />
+            <Route path="/EmptyCounter" element={<EmptyCounter/>} />
+            <Route path="/FaceMask" element={<FaceMask/>} />
+            <Route path="/Fainting" element={<Fainting/>} />
+            <Route path="/Smoking" element={<Smoking/>} />
+            <Route path="/SocialDistancing" element={<SocialDistancing/>} />
+            <Route path="/Weapon" element={<Weapon/>} />
+          </Routes>
+        <Footer />
+      </Wrapper>
+      
     </Router>
   );
 }

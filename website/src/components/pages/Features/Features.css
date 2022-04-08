@@ -7,7 +7,7 @@
     align-items: center;
   }
   
-  .features-row {
+  .row {
     display: flex;
     margin-right: -15px;
     margin-bottom: -15px;
@@ -16,10 +16,7 @@
     align-content: stretch;
   }
   
-  .features-top-line{
-    color: #00ff95;
-  }
-  .features-col {
+  .col {
     margin-bottom: 15px;
     padding-right: 15px;
     padding-left: 15px;
@@ -34,7 +31,7 @@
     padding-bottom: 60px;
   }
   
-  .features-heading {
+  .heading {
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
@@ -42,11 +39,11 @@
     color: #f7f8fa;
   }
   
-  .features-dark {
+  .dark {
     color: #000000;
   }
   
-  .features-darkBg {
+  .darkBg {
     background-color: #0037ff;
   }
   
@@ -77,7 +74,7 @@
   }
   
   @media screen and (max-width: 991px) {
-    .features-container {
+    .container {
       padding-right: 30px;
       padding-left: 30px;
     }
@@ -88,7 +85,7 @@
       padding-bottom: 65px;
     }
   
-    .features-col {
+    .col {
       max-width: 100%;
       flex-basis: 100%;
     }
