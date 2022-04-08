@@ -19,7 +19,7 @@ function Features({
       <div
         className={lightBg ? 'features__hero-section' : 'features__hero-section darkBg'}
       >
-        <div className='container'>
+        <div className='features-container'>
           <div
             className='row features__hero-row'
             style={{
@@ -27,7 +27,7 @@ function Features({
               flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
             }}
           >
-            <div className='col'>
+            <div className='features-col'>
               <div className='features__hero-text-wrapper'>
                 <h1 className={lightText ? 'heading' : 'heading dark'}>
                   {headline}
@@ -43,7 +43,7 @@ function Features({
                 </p>
               </div>
             </div>
-            <div className='col'>
+            <div className='features-col'>
               <div className='features__hero-img-wrapper'>
                 <img src={img} alt={alt} className='features__hero-img' />
               </div>
