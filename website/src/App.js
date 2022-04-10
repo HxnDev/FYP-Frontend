@@ -27,7 +27,7 @@ const Wrapper = ({children}) => {
 };
 
 
-const App = () => {
+const App = () => {   
     const [user, setUser] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -39,6 +39,8 @@ const clearInputs = () => {
     setPassword('');
 };
 
+
+
 const clearErrors = () => {
     setEmailError('');
     setPasswordError('');
@@ -46,6 +48,7 @@ const clearErrors = () => {
 
 const handleLogin = () => {
     clearErrors();
+    
     fire
         .auth()
         .signInWithEmailAndPassword(email, password)
@@ -90,15 +93,15 @@ useEffect(() => {
             <Route exact path="/" element={<Home/>} />
             <Route path="/Products" element={<Products/>} />
             <Route path="/Login" element={<Login 
-              email = {email}
-              setEmail = {setEmail}
-              password = {password}
-              setPassword = {setPassword}
-              handleLogin = {handleLogin}
-              emailError = {emailError}
-              passwordError = {passwordError}
-             />} />
-
+                email = {email}
+                setEmail = {setEmail}
+                password = {password}
+                setPassword = {setPassword}
+                handleLogin = {handleLogin}
+                emailError = {emailError}
+                passwordError = {passwordError}
+              />
+              } />
             <Route path="/Aggressive" element={<Aggressive/>} />
             <Route path="/Attendance" element={<Attendance/>} />
             <Route path="/Choking" element={<Choking/>} />

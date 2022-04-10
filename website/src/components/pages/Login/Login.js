@@ -1,20 +1,80 @@
-import React from "react"
-import { Link } from "react-router-dom";
+import React, { useState, useEffect} from "react"
+import { Link, useNavigate } from "react-router-dom";
 import loginimage from "../images/login.svg"
 import "./Login.css";
-
+import fire from '../../../fire'
 
 const Login= (props)=>{
+    let navigate = useNavigate();
+    
+    const routeChange = () =>{ 
+        let path = '/Surveillance'; 
+        navigate(path);
+      }
 
-    const {
-        email,
-        setEmail,
-        password,
-        setPassword,
-        handleLogin,
-        emailError,
-        passwordError,
-    } = props;
+      const [user, setUser] = useState('');
+      const [email, setEmail] = useState('');
+      const [password, setPassword] = useState('');
+      const [emailError, setEmailError] = useState('');
+      const [passwordError, setPasswordError] = useState('');
+  
+  const clearInputs = () => {
+      setEmail('');
+      setPassword('');
+  };
+  
+  
+  
+  const clearErrors = () => {
+      setEmailError('');
+      setPasswordError('');
+  };
+  
+  const handleLogin = () => {
+      clearErrors();
+      
+      fire
+          .auth()
+          .signInWithEmailAndPassword(email, password)
+          .then (result => {
+            routeChange();
+          })
+          .catch(err => {
+              switch (err.code) {
+                  case "auth/invalid-email":
+                  case "auth/user-disabled":
+                  case "auth/user-not-found":
+                      setEmailError(err.message);
+                      break;
+                  case "auth/wrong-password":
+                      setPasswordError(err.message);
+                      break;
+              }
+          }
+          );
+          
+          
+  };
+  
+  const handleLogout = () => {
+      fire.auth().signOut();
+  };
+  
+  const authListener = () => {
+      fire.auth().onAuthStateChanged((user) => {
+          if (user) {
+              clearInputs();
+              setUser(user);
+          } else {
+              setUser("");
+          }
+      });
+  };
+  
+  useEffect(() => {
+      authListener();
+  }, [])
+
 
   return (
         <div className="login-base" style={{marginTop: 150}}>
@@ -48,13 +108,14 @@ const Login= (props)=>{
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}    
                         />
+                        <p className="errorMsg">{passwordError}</p>
                     </div>
                 </div>
             </div>
 
-            <Link to = '/Surveillance' className="login-btn" >
-                    <h4>Login</h4>          
-            </Link>
+            <button className="login-btn" onClick={handleLogin}>
+                    <h4>Login</h4>                   
+            </button>
         </div>
   );
 }
