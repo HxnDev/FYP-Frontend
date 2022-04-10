@@ -23,8 +23,9 @@ const Login= ({props})=>{
                     </div>
                 </div>
             </div>
+            
             <Link to = '/Surveillance' className="login-btn" >
-                    <h4>Login</h4>
+                    <h4>Login</h4>          
             </Link>
         </div>
   );

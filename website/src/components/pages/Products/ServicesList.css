@@ -12,7 +12,8 @@
     width: 280px;
     height: 400px;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 75px;
+    cursor: pointer;
   }
   
   .services__container-card:nth-child(2) {
