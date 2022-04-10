@@ -16,7 +16,7 @@ import SocialDistancing from './components/pages/Features/SocialDistancing';
 import Weapon from './components/pages/Features/Weapon';
 import {useLayoutEffect , useState, useEffect} from 'react'
 import Surveillance from './components/pages/Surveillance/Surveillance';
-import fire from './fire';
+
 
 const Wrapper = ({children}) => {
   const location = useLocation();
@@ -28,63 +28,6 @@ const Wrapper = ({children}) => {
 
 
 const App = () => {   
-    const [user, setUser] = useState('');
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [emailError, setEmailError] = useState('');
-    const [passwordError, setPasswordError] = useState('');
-
-const clearInputs = () => {
-    setEmail('');
-    setPassword('');
-};
-
-
-
-const clearErrors = () => {
-    setEmailError('');
-    setPasswordError('');
-};
-
-const handleLogin = () => {
-    clearErrors();
-    
-    fire
-        .auth()
-        .signInWithEmailAndPassword(email, password)
-        .catch(err => {
-            switch (err.code) {
-                case "auth/invalid-email":
-                case "auth/user-disabled":
-                case "auth/user-not-found":
-                    setEmailError(err.message);
-                    break;
-                case "auth/wrong-password":
-                    setPasswordError(err.message);
-                    break;
-            }
-        });
-};
-
-const handleLogout = () => {
-    fire.auth().signOut();
-};
-
-const authListener = () => {
-    fire.auth().onAuthStateChanged((user) => {
-        if (user) {
-            clearInputs();
-            setUser(user);
-        } else {
-            setUser("");
-        }
-    });
-};
-
-useEffect(() => {
-    authListener();
-}, [])
-
   return (
     <Router>
       <Wrapper>
@@ -92,15 +35,7 @@ useEffect(() => {
           <Routes>
             <Route exact path="/" element={<Home/>} />
             <Route path="/Products" element={<Products/>} />
-            <Route path="/Login" element={<Login 
-                email = {email}
-                setEmail = {setEmail}
-                password = {password}
-                setPassword = {setPassword}
-                handleLogin = {handleLogin}
-                emailError = {emailError}
-                passwordError = {passwordError}
-              />
+            <Route path="/Login" element={<Login />
               } />
             <Route path="/Aggressive" element={<Aggressive/>} />
             <Route path="/Attendance" element={<Attendance/>} />

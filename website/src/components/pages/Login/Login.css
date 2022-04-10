@@ -106,6 +106,15 @@
     padding-right: 25%;
   }
 
-  .error-msg{
-      
+  .errorMsg{
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    padding-left: 20px;
+    color: red;
+  }
+
+  .errorMsg:hover{
+      color: #0660e9;
+      transform: scale(1.1);
   }
