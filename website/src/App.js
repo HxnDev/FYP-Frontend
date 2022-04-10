@@ -90,13 +90,13 @@ useEffect(() => {
             <Route exact path="/" element={<Home/>} />
             <Route path="/Products" element={<Products/>} />
             <Route path="/Login" element={<Login 
-              // email = {email}
-              // setEmail = {setEmail}
-              // password = {password}
-              // setPassword = {setPassword}
-              // handleLogin = {handleLogin}
-              // emailError = {emailError}
-              // passwordError = {passwordError}
+              email = {email}
+              setEmail = {setEmail}
+              password = {password}
+              setPassword = {setPassword}
+              handleLogin = {handleLogin}
+              emailError = {emailError}
+              passwordError = {passwordError}
              />} />
 
             <Route path="/Aggressive" element={<Aggressive/>} />

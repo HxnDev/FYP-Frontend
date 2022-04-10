@@ -6,15 +6,15 @@ import "./Login.css";
 
 const Login= (props)=>{
 
-    // const {
-    //     email,
-    //     setEmail,
-    //     password,
-    //     setPassword,
-    //     handleLogin,
-    //     emailError,
-    //     passwordError,
-    // } = props;
+    const {
+        email,
+        setEmail,
+        password,
+        setPassword,
+        handleLogin,
+        emailError,
+        passwordError,
+    } = props;
 
   return (
         <div className="login-base" style={{marginTop: 150}}>
@@ -30,12 +30,12 @@ const Login= (props)=>{
                             type="text" 
                             name="address" 
                             placeholder="Email" 
-                            // autoFocus 
-                            // required 
-                            // value={email} 
-                            // onChange={(e) => setEmail(e.target.value)}
+                            autoFocus 
+                            required 
+                            value={email} 
+                            onChange={(e) => setEmail(e.target.value)}
                         />
-                        {/* <p className="errorMsg">{emailError}</p> */}
+                        <p className="errorMsg">{emailError}</p>
 
                     </div>
                     <div className="login-form-group">
@@ -44,9 +44,9 @@ const Login= (props)=>{
                             type="password" 
                             name="password" 
                             placeholder="Password"
-                            // required
-                            // value={password}
-                            // onChange={(e) => setPassword(e.target.value)}    
+                            required
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}    
                         />
                     </div>
                 </div>
