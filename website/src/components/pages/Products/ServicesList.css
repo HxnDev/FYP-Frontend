@@ -17,52 +17,34 @@
   
   .services__container-card:nth-child(2) {
     background: #242424;
-  }
-
-  .services__container-card:nth-child(2) {
     margin: 0 24px;
   }
   
   .services__container-card:nth-child(4) {
     background: #242424;
-  }
-
-  .services__container-card:nth-child(4) {
     margin: 0 24px;
   }
 
   .services__container-card:nth-child(6) {
     background: #242424;
-  }
-
-  .services__container-card:nth-child(6) {
     margin: 0 24px;
   }
 
   .services__container-card:nth-child(8) {
     background: #242424;
-  }
-
-  .services__container-card:nth-child(8) {
     margin: 0 24px;
   }
 
   .services__container-card:nth-child(10) {
     background: #242424;
-  }
-
-  .services__container-card:nth-child(10) {
     margin: 0 24px;
   }
-
+  
   .services__container-card:nth-child(12) {
     background: #242424;
-  }
-
-  .services__container-card:nth-child(12) {
     margin: 0 24px;
   }
-
+  
   .services__container-card:hover {
     transform: scale(1.06);
     transition: all 0.3s ease-out;

@@ -1,0 +1,91 @@
+.models__section {
+    padding: 100px 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fafafa;
+  }
+  
+  .models__container-card {
+    background: #242424;
+    width: 150px;
+    height: 80px;
+    text-decoration: none;
+    border-radius: 40px;
+    outline: transparent;
+    justify-content: center;
+    margin: 0 12px;
+  }
+  
+  .models__container-card:hover {
+    transform: scale(1.06);
+    transition: all 0.3s ease-out;
+    background: #0660e9;
+    box-shadow: 0px 0px 12px 1px #575757;
+  }
+  
+  .models__container {
+    background-color: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.2%;
+    height: 150px;
+  }
+  
+  .models__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    height : auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  
+  
+  .models__container-cardInfo {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 300px;
+    padding: 24px;
+    padding-left: 5%;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .models__container-cardInfo h4 {
+    font-size: 14px;
+    padding-left: 1%;
+    padding-right: 50%;
+  }
+  
+  
+  @media screen and (max-width: 960px) {
+    .models__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .models__container-card {
+      width: 90%;
+    }
+  
+    .models__wrapper {
+      margin: 0 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+
+    .models__container-card:hover {
+      transform: none;
+    }
+  }

@@ -1,7 +1,7 @@
 import React from "react"
+import { Link } from "react-router-dom";
 import loginimage from "../images/login.svg"
-import "./Login.css"
-import { Link } from 'react-router-dom';
+import "./Login.css";
 
 const Login= ({props})=>{
 
@@ -23,11 +23,9 @@ const Login= ({props})=>{
                     </div>
                 </div>
             </div>
-            <div className="login-footer">
-                <button type="button" className="login-btn">
-                        Login
-                </button>
-            </div>
+            <Link to = '/Surveillance' className="login-btn" >
+                    <h4>Login</h4>
+            </Link>
         </div>
   );
 }
