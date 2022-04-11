@@ -61,8 +61,9 @@
 
 .btn--wide:hover{
     color: #fff;
-    background-color: #f00946;
+    background-color: #ff6a3d;
     transition: all 0.2s ease-out;
+    border: none;
 }
 
 .blue {
