@@ -30,7 +30,7 @@ function Navbar() {
       <IconContext.Provider value={{color: '#fff'}}>
         <div className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            THINK <span> VISION</span>
+            THINK VISION
         </Link>
             <div className='navbar-container ncontainer'>
                 <div className='menu-icon' onClick={handleClick}>
