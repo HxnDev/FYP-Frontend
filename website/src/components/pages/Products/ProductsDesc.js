@@ -17,7 +17,7 @@ function ProductDesc({
 }) {
   return (
     <>
-    
+
       <div
         className={lightBg ? 'product__hero-section' : 'product__hero-section darkBg'}
       >
@@ -44,7 +44,7 @@ function ProductDesc({
                 >
                   {description}
                 </p>
-                <Link to='/sign-up'>
+                <Link to='/Login'>
                   <Button buttonSize='btn--wide' buttonColor='white'>
                     {buttonLabel}
                   </Button>

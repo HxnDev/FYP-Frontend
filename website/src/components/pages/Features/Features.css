@@ -55,14 +55,14 @@
   }
   
   .features__hero-img-wrapper {
-    max-width: 555px;
+    max-width: 500px;
   }
   
   .features__hero-img {
-    max-width: 95%;
+    max-width: 100%;
     margin-top: 0;
     margin-right: 0;
-    margin-left: 10px;
+    margin-left: 100px;
     padding-right: 0;
   }
   
