@@ -13,38 +13,38 @@ function Footer() {
     <div className='footer-container'>
       <section className='social-media'>
         <div className='social-icons'>
-          <Link
+          <a
             className='social-icon-link'
-            to='/'
+            href = 'https://www.facebook.com/'
             target='_blank'
             aria-label='Facebook'
           >
             <FaFacebook />
-          </Link>
-          <Link
+          </a>
+          <a
             className='social-icon-link'
-            to='/'
+            href = 'https://www.instagram.com/'
             target='_blank'
             aria-label='Instagram'
           >
             <FaInstagram />
-          </Link>
-          <Link
+          </a>
+          <a
             className='social-icon-link'
-            to='/'
+            href = 'https://twitter.com/?lang=en'
             target='_blank'
             aria-label='Twitter'
           >
             <FaTwitter />
-          </Link>
-          <Link
+          </a>
+          <a
             className='social-icon-link'
-            to='/'
             target='_blank'
+            href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
             aria-label='LinkedIn'
           >
             <FaLinkedin />
-          </Link>
+          </a>
         </div>
 
         <div className='social-media-wrap'>
