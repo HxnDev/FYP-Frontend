@@ -48,7 +48,7 @@ const App = () => {
             <Route path="/Weapon" element={<Weapon/>} />
             <Route path="/Surveillance" element={<Surveillance/>} />
           </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Wrapper>
       
     </Router>

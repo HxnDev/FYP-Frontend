@@ -3,7 +3,6 @@ import './HeroSection.css';
 
 function HeroSection({
   lightBg,
-  topLine,
   lightText,
   lightTextDesc,
   headline,
@@ -28,7 +27,6 @@ function HeroSection({
           >
             <div className='col'>
               <div className='home__hero-text-wrapper'>
-                <div className='home-top-line'>{topLine}</div>
                 <h1 className={lightText ? 'heading' : 'heading dark'}>
                   {headline}
                 </h1>
