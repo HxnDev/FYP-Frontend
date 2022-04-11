@@ -83,11 +83,10 @@
     font-family: 'Quicksand';
     padding: 10px 30px;
     border : 0;
-    box-shadow: 0px 0px 12px 1px #ccc7c7fd;
     text-decoration: none;
-    background-color: white;
+    background-color: rgba(145, 174, 255, 0.493);
     color: rgb(0, 0, 0);
-    border-radius: 50px;
+    border-radius: 20px;
     transition: all 250ms ease-in-out;
     cursor: pointer;
     margin-top: 5px;

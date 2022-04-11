@@ -49,21 +49,10 @@ function Navbar() {
                     </Link>
                   </li>
 
-                  <li className='nav-btn'>
-                    { button ? (
-                      <Link to='/Login' className='btn-link'>
-                        <Button buttonStyle='btn--outline'>
-                          LOGIN
-                        </Button>
+                  <li className='btn-item'>
+                      <Link to='/Login' className='btn-links'>
+                          Login
                       </Link>
-                    ) : (
-                      <Link to='/Login' className='btn-link' onClick={<Login />}>
-                        <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
-                          LOGIN
-                        </Button>
-                      </Link>
-                    )
-                    }
                   </li>
                 </ul>
             </div>
