@@ -1,6 +1,7 @@
 .home__hero-section {
-    color: rgb(255, 255, 255);
+    color: white;
     padding: 160px 0;
+    display: flex;
   }
   
   .home__hero-row {
@@ -48,12 +49,13 @@
     margin-bottom: 16px;
   }
   
-  .heading {
+  
+  .hero-heading {
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: #f7f8fa;
+    color: white;
   }
   
   .dark {
@@ -79,7 +81,7 @@
     max-width: 95%;
     margin-top: 0;
     margin-right: 0;
-    margin-left: 100px;
+    margin-left: 110%;
     padding-right: 0;
   }
   

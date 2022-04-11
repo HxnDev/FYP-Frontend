@@ -60,14 +60,20 @@
 }
 
 .btn--wide:hover{
-    color: #fff;
-    background-color: #ff6a3d;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     transition: all 0.2s ease-out;
     border: none;
 }
 
 .blue {
     background-color: #276afb;
+    color: #fff;
+    border: none;
+}
+
+.orange {
+    background-color: #ff6a3d;
     color: #fff;
     border: none;
 }

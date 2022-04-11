@@ -3,7 +3,8 @@ export const productObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: '',
-    headline: "HAWK'S EYE",
+    headline: "HAWK'S ",
+    headline1: "EYE",
     description:
       'Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees',
     buttonLabel: 'Get Started',

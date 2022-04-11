@@ -6,7 +6,8 @@
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
-    top: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
     z-index: 999;
   }
   
@@ -43,9 +44,16 @@
     align-items: center;
   }
   
+  .navbar-logo span {
+    color: #ff6a3d;
+  }
+
+
   .navbar-icon {
     margin-right: 0.5rem;
   }
+  
+  
   
   .nav-menu {
     display: flex;
@@ -167,7 +175,6 @@
       position: absolute;
       top: 0;
       left: 0;
-      transform: translate(25%, 50%);
     }
   
     .menu-icon {

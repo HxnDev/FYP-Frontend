@@ -1,6 +1,7 @@
 .features__hero-section {
     color: rgb(255, 255, 255);
     padding: 160px 0;
+    display: flex;
   }
   
   .features__hero-row {
@@ -62,7 +63,7 @@
     max-width: 100%;
     margin-top: 0;
     margin-right: 0;
-    margin-left: 100px;
+    margin-left: 150%;
     padding-right: 0;
   }
   

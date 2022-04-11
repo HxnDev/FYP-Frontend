@@ -18,7 +18,7 @@ export const homeObjTwo = {
   headline: 'Watching out for your ease and safety',
   description:
     'Manual surveillance is prone to human error and gaps in oversight. We can address these issues - our models will tirelessly watch and catch out anything suspicious. From aggressive behaviour to unauthorised people in restricted areas, our AI can address any vulnerabiiity, threat or risk.',
-  imgStart: 'start',
+  imgStart: '',
   buttonLabel: "Hi",
   img: 'images/svg-5.svg',
   alt: 'Vault'

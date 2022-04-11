@@ -27,7 +27,7 @@ function HeroSection({
           >
             <div className='col'>
               <div className='home__hero-text-wrapper'>
-                <h1 className={lightText ? 'heading' : 'heading dark'}>
+                <h1 className={lightText ? 'hero-heading' : 'hero-heading dark'}>
                   {headline}
                 </h1>
                 <p

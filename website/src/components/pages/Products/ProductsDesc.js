@@ -5,10 +5,8 @@ import { Link } from 'react-router-dom';
 
 function ProductDesc({
   lightBg,
-  topLine,
   lightText,
   lightTextDesc,
-  headline,
   description,
   buttonLabel,
   img,
@@ -31,9 +29,8 @@ function ProductDesc({
           >
             <div className='col'>
               <div className='product__hero-text-wrapper'>
-                <div className='top-line'>{topLine}</div>
-                <h1 className={lightText ? 'heading' : 'heading dark'}>
-                  {headline}
+                <h1 className={lightText ? 'product-heading' : 'product-heading dark'}>
+                  HAWK'S <span>EYE</span>
                 </h1>
                 <p
                   className={
@@ -44,8 +41,8 @@ function ProductDesc({
                 >
                   {description}
                 </p>
-                <Link to='/Login'>
-                  <Button buttonSize='btn--wide' buttonColor='white'>
+                <Link to='/Login' className='get-started'>
+                  <Button buttonSize='btn--wide' buttonColor='orange'>
                     {buttonLabel}
                   </Button>
                 </Link>
