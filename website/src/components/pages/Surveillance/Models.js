@@ -86,8 +86,6 @@ function Models() {
         </div>
       </div>
     </IconContext.Provider>
-
-
   );
 }
 

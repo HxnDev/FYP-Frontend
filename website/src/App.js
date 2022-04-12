@@ -2,7 +2,6 @@ import {Routes, Route, BrowserRouter as Router, useLocation} from 'react-router-
 import './App.css';
 import Home from './components/pages/HomePage/Home';
 import Navbar from './components/pages/Navbar/Navbar';
-import Footer from './components/pages/Footer/Footer';
 import Products from './components/pages/Products/Products';
 import Login from './components/pages/Login/Login';
 import Aggressive from './components/pages/Features/Aggressive';
@@ -14,7 +13,7 @@ import Fainting from './components/pages/Features/Fainting';
 import Smoking from './components/pages/Features/Smoking';
 import SocialDistancing from './components/pages/Features/SocialDistancing';
 import Weapon from './components/pages/Features/Weapon';
-import {useLayoutEffect , useState, useEffect} from 'react'
+import {useLayoutEffect } from 'react'
 import Surveillance from './components/pages/Surveillance/Surveillance';
 
 const Wrapper = ({children}) => {
@@ -34,8 +33,7 @@ const App = () => {
           <Routes>
             <Route exact path="/" element={<Home/>} />
             <Route path="/Products" element={<Products/>} />
-            <Route path="/Login" element={<Login />
-              } />
+            <Route path="/Login" element={<Login />} />
             <Route path="/Aggressive" element={<Aggressive/>} />
             <Route path="/Attendance" element={<Attendance/>} />
             <Route path="/Choking" element={<Choking/>} />
@@ -48,7 +46,6 @@ const App = () => {
             <Route path="/Surveillance" element={<Surveillance/>} />
           </Routes>
       </Wrapper>
-      
     </Router>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from "react"
 import { Link, useNavigate } from "react-router-dom";
-import loginimage from "../images/login.svg"
+import loginimage from "./images/login.svg"
 import "./Login.css";
 import fire from '../../../fire'
 
@@ -22,8 +22,6 @@ const Login= (props)=>{
       setEmail('');
       setPassword('');
   };
-  
-  
   
   const clearErrors = () => {
       setEmailError('');
@@ -52,8 +50,6 @@ const Login= (props)=>{
               }
           }
           );
-          
-          
   };
   
   const handleLogout = () => {

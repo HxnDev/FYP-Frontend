@@ -139,8 +139,6 @@ function ServicesList() {
         </div>
       </div>
     </IconContext.Provider>
-
-
   );
 }
 
