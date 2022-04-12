@@ -1,5 +1,4 @@
 .models__section {
-    padding: 100px 0 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,11 +6,11 @@
   }
   
   .models__container-card {
-    background: #242424;
+    background: black;
     width: 150px;
     height: 80px;
     text-decoration: none;
-    border-radius: 40px;
+    border-radius: 25px;
     outline: none;
     justify-content: center;
     margin: 0 12px;
@@ -41,8 +40,8 @@
     flex-direction: column;
     align-items: start;
     
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     height : auto;
     overflow-x: scroll;
     overflow-y: hidden;

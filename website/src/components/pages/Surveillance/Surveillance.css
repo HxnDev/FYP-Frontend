@@ -1,0 +1,24 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container {
+    max-width: 100%;
+    padding-left: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.right-container {
+    margin-top: 100px;
+    height: 500px;
+    width: 400px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 80px 1px #00000033;
+    background-color: white;
+    
+    overflow-x: auto;
+    overflow-y: auto;
+}

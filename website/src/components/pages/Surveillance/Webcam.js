@@ -10,7 +10,7 @@ function Webcam() {
             <header>
                 <img src='./images/svg-1.svg' className="webcam" alt="logo" />
             </header>
-      </div>
+        </div>
     </>
   );
 }

@@ -17,7 +17,6 @@ import Weapon from './components/pages/Features/Weapon';
 import {useLayoutEffect , useState, useEffect} from 'react'
 import Surveillance from './components/pages/Surveillance/Surveillance';
 
-
 const Wrapper = ({children}) => {
   const location = useLocation();
   useLayoutEffect(() => {
@@ -48,7 +47,6 @@ const App = () => {
             <Route path="/Weapon" element={<Weapon/>} />
             <Route path="/Surveillance" element={<Surveillance/>} />
           </Routes>
-        {/* <Footer /> */}
       </Wrapper>
       
     </Router>

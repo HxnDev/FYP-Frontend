@@ -1,0 +1,18 @@
+.log-container {
+    align-items: center;
+    justify-items: center;
+    text-align: left;
+    
+}
+
+.text {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 10px;
+    color: black;
+}
+
+.text span {
+    font-size: 18px;
+    color: #ff6a3d;
+}
