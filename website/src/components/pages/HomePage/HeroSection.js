@@ -58,7 +58,7 @@ function HeroSection() {
                 Keeping an eye out for anything <span>Alarming</span>
                 </h1>
                 <p className= 'home__hero-subtitle dark'>
-                  So sit back and relax and let us take care of your comfort and safety by providing efficient services.
+                  So sit back and relax and let us take care of your security by providing efficient services.
                 </p>
               </div>
             </div>
