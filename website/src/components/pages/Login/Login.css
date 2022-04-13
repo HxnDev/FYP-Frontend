@@ -14,7 +14,8 @@
 }
 
 .login-image {
-    width: 30em;
+    margin-top: -50px;
+    width: 500px;
     margin-bottom: 10px;
 }
 
@@ -24,20 +25,16 @@
 }
 
 .login-header {
-    font-family: 'Licorice';
-    height: 2vh;
-    width: 2vh;
     background-position: center;
     background-size:cover;
-    min-height: 1vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 150px;
-    color: #000b33;
-    margin-bottom: 100px;
-    margin-top: -30px;
+    font-size: 100px;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-top: -150px;
 }
 
 .login-form {
@@ -65,8 +62,8 @@
     padding: 0px 20px;
     font-size: 15px;
     font-family: Quicksand;
-    background-color: #cdcfe788;
-    border: 0;
+    background-color: #ffffff;
+    border: 1;
     border-radius: 15px;
     margin-bottom: 30px;
     transition: all 250ms ease-in-out;
@@ -79,13 +76,13 @@
 
 .login-btn {
     font-size: 55px;
-    font-weight: bold;
     font-family: 'Quicksand';
     padding: 10px 30px;
+    width: 200px;
     border : 0;
     text-decoration: none;
-    background-color: rgba(145, 174, 255, 0.493);
-    color: rgb(0, 0, 0);
+    background-color: #ff6a3d;
+    color: rgb(255, 255, 255);
     border-radius: 20px;
     transition: all 250ms ease-in-out;
     cursor: pointer;
@@ -96,13 +93,13 @@
 .login-btn:hover {
     color: white;
     border: 0;
-    background: #ff6a3d;
+    transform: scale(1.1);
+    background: #030303;
 }
   
   .login-btn h4 {
     font-size: 24px;
-    padding-left: 1%;
-    padding-right: 25%;
+    text-align: center;
   }
 
   .errorMsg{

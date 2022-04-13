@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from "react"
 import { Link, useNavigate } from "react-router-dom";
-import loginimage from "./images/login.svg"
+import loginimage from "./images/login.png"
 import "./Login.css";
 import fire from '../../../fire'
 
@@ -73,8 +73,7 @@ const Login= (props)=>{
 
 
   return (
-        <div className="login-base" style={{marginTop: 150}}>
-            <div className="login-header">Login</div>
+        <div className="login-base" style={{marginTop: 120}}>
             <div className="login-content">
                 <div className="login-image">
                     <img src={loginimage} />
