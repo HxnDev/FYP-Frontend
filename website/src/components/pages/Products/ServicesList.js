@@ -10,7 +10,7 @@ function ServicesList() {
   const navigate = useNavigate();
   return (
     
-    <IconContext.Provider value={{ color: '#fff', size: 64 }}>
+    <IconContext.Provider value={{ color: '#e1a361', size: 64 }}>
       <div className='services__section'>
       <h1 className='services__heading'>Our Services</h1>
         <div className='services__wrapper'>

@@ -35,8 +35,8 @@ function ProductDesc({
                 <p
                   className={
                     lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
+                      ? 'product__hero-subtitle'
+                      : 'product__hero-subtitle dark'
                   }
                 >
                   {description}

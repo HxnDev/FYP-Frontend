@@ -85,7 +85,7 @@
     padding-right: 0;
   }
   
-  img {
+  .home__hero-img img {
     border: 0;
     max-width: 100%;
     vertical-align: middle;

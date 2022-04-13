@@ -1,5 +1,5 @@
 .navbar {
-    background: rgb(0, 0, 0);
+    background: white;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@
   }
   
   .navbar-logo {
-    color: #ffffff;
+    color: black;
     text-align: left;
     margin-left: 100px;
     padding-left: 20px;
@@ -43,10 +43,7 @@
     display: flex;
     align-items: center;
   }
-  
-  .navbar-logo span {
-    color: #ff6a3d;
-  }
+ 
 
 
   .navbar-icon {
@@ -77,7 +74,6 @@
   .btn-item {
     height: 80px;
     font-size: 25px;
-    
     margin-left: -30px;
     margin-right: 50px;
     border-bottom: 2px solid transparent;
@@ -85,7 +81,7 @@
 
   
   .nav-links {
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -101,7 +97,7 @@
   }
 
   .btn-links {
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -117,7 +113,7 @@
   }
   
   .fa-bars {
-    color: #fff;
+    color: black;
   }
   
   .menu-icon {
@@ -143,7 +139,7 @@
     }
   
     .nav-menu.active {
-      background: black;
+      background: white;
       left: 0;
       opacity: 1;
       transition: all 0.6s ease;
@@ -188,7 +184,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: black;
       font-size: 2rem;
     }
   

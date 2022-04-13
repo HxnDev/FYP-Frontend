@@ -7,7 +7,7 @@ function Webcam() {
 
         <div className='webcam-container'>
             <header>
-                <img src='./images/svg-.svg' className="webcam" alt="camera not readable" />
+                <img src='./images/ai-hand.png' className="webcam" alt="camera not readable" />
             </header>
         </div>
     </>
