@@ -6,9 +6,11 @@
     }
 
 .webcam {
-    width: 500px;
+    width: 700px;
+    margin-left: -200px;
+    margin-right: -100px;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: -20px;
     border: 0;
     display: flex;
