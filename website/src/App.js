@@ -15,7 +15,7 @@ import SocialDistancing from './components/pages/Features/SocialDistancing';
 import Weapon from './components/pages/Features/Weapon';
 import {useLayoutEffect } from 'react'
 import Surveillance from './components/pages/Surveillance/Surveillance';
-
+import Footer from './components/pages/Footer/Footer'
 const Wrapper = ({children}) => {
   const location = useLocation();
   useLayoutEffect(() => {
@@ -45,6 +45,7 @@ const App = () => {
             <Route path="/Weapon" element={<Weapon/>} />
             <Route path="/Surveillance" element={<Surveillance/>} />
           </Routes>
+          <Footer />
       </Wrapper>
     </Router>
   );

@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     background: #ffffff;
+    margin-bottom: 3%
   }
   
   .models__container-card {

@@ -36,7 +36,7 @@ function HeroSection() {
                   Watching out for your <span>Ease</span> and <span>Safety</span>
                 </h1>
                 <p className= 'home__hero-subtitle'>
-                Manual surveillance is prone to human error and gaps in oversight. We can address these issues - our models will tirelessly watch and catch out anything suspicious. From aggressive behaviour to unauthorised people in restricted areas, our AI can address any vulnerabiiity, threat or risk.
+                From aggressive behaviour to unauthorised people in restricted areas, our product can address any vulnerabiiity, threat or risk.
                 </p>
               </div>
             </div>
