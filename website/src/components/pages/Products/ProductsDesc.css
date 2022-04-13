@@ -52,10 +52,10 @@
   }
   
   .product__hero-subtitle {
-    max-width: 80%;
+    max-width: 75%;
     margin-bottom: 50px;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 1.2;
   }
   
   .product__hero-img-wrapper {

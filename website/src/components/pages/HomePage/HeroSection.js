@@ -1,54 +1,76 @@
 import React from 'react';
 import './HeroSection.css';
 
-function HeroSection({
-  lightBg,
-  lightText,
-  lightTextDesc,
-  headline,
-  description,
-  img,
-  alt,
-  imgStart
-}) {
+function HeroSection() {
   return (
     <>
     
-      <div
-        className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
-      >
+      <div className='home__hero-section'>
         <div className='container'>
-          <div
-            className='row home__hero-row'
-            style={{
-              display: 'flex',
-              flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
-            }}
-          >
+          <div className='row home__hero-row' style={{display: 'flex'}}>
             <div className='col'>
               <div className='home__hero-text-wrapper'>
-                <h1 className={lightText ? 'hero-heading' : 'hero-heading dark'}>
-                  {headline}
+                <h1 className='hero-heading dark'>
+                  Creating <span>Smart Solutions</span>
                 </h1>
-                <p
-                  className={
-                    lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
-                  }
-                >
-                  {description}
+                <p className= 'home__hero-subtitle dark'>
+                  At Think Vision, we provide real-time monitoring and threat alerts using deep learning and video analytics.
                 </p>
               </div>
             </div>
             <div className='col'>
               <div className='home__hero-img-wrapper'>
-                <img src={img} alt={alt} className='home__hero-img' />
+                <img src='./images/ai.png' alt='Image not loaded' className='home__hero-img' />
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div className='home__hero-section darkBg'>
+        <div className='container'>
+          <div className='row home__hero-row' style={{display: 'flex'}}>
+            <div className='col'>
+              <div className='home__hero-text-wrapper'>
+                <h1 className='hero-heading'>
+                  Watching out for your <span>Ease</span> and <span>Safety</span>
+                </h1>
+                <p className= 'home__hero-subtitle'>
+                Manual surveillance is prone to human error and gaps in oversight. We can address these issues - our models will tirelessly watch and catch out anything suspicious. From aggressive behaviour to unauthorised people in restricted areas, our AI can address any vulnerabiiity, threat or risk.
+                </p>
+              </div>
+            </div>
+            <div className='col'>
+              <div className='home__hero-img-wrapper'>
+                <img src='images/security.png' alt='Image not loaded' className='home__hero-img' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='home__hero-section'>
+        <div className='container'>
+          <div className='row home__hero-row' style={{display: 'flex'}}>
+            <div className='col'>
+              <div className='home__hero-text-wrapper'>
+                <h1 className='hero-heading dark'>
+                Keeping an eye out for anything <span>Alarming</span>
+                </h1>
+                <p className= 'home__hero-subtitle dark'>
+                  So sit back and relax and let us take care of your comfort and safety by providing efficient services.
+                </p>
+              </div>
+            </div>
+            <div className='col'>
+              <div className='home__hero-img-wrapper'>
+                <img src='images/eye-out.png' alt='Image not loaded' className='home__hero-img' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </>
   );
 }
