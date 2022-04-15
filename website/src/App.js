@@ -16,6 +16,7 @@ import Weapon from './components/pages/Features/Weapon';
 import {useLayoutEffect } from 'react'
 import Surveillance from './components/pages/Surveillance/Surveillance';
 import Footer from './components/pages/Footer/Footer'
+
 const Wrapper = ({children}) => {
   const location = useLocation();
   useLayoutEffect(() => {
